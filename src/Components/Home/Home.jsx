@@ -4,6 +4,7 @@ import { redes } from "../../Utils/constants.js";
 import { Carta } from "../Carta/Carta.jsx";
 import { Referencias } from "../Referencias/Referencias.jsx";
 import { useNavigate } from "react-router-dom";
+import {Tecnologias} from '../Tecnologias/Tecnologias.jsx'
 export const Home = () => {
 
   const navigate = useNavigate()
