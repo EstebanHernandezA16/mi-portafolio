@@ -18,9 +18,7 @@ export const Carta = () =>{
                 <p className="mt-5 text-center">
                     Estoy convencido de que mi motivación y disposición para asumir nuevos retos me permitirán contribuir positivamente a su organización, 
                 al mismo tiempo que fortalezco mis competencias en el ámbito del desarrollo de software. Siempre estoy atento a la posibilidad de aportar valor a un equipo en crecimiento.
-                
                 </p>
-                
             </div>
         </div>
         

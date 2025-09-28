@@ -2,14 +2,15 @@ import { useState } from "react"
 import { background } from "../../Utils/constants"
 
 
-export const Button = ({text}) =>{
+export const Button = ({text, onClickAction}) =>{
     const [selected, setSelected] = useState(null)
 
     return(
         <button 
         className={`bg-gray-800 text-white font-bold py-2 px-4 rounded shadow-md ${selected?`${background} cursor-pointer`: `cursor-default`}`}
         onMouseOver={() => setSelected(true)}
-        onMouseLeave={() => setSelected(null)}>
+        onMouseLeave={() => setSelected(null)}
+        onClick={onClickAction}>
         {text}
         </button>
     )

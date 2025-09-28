@@ -29,3 +29,21 @@ export const redes =[
 ]
 
 export const background = 'bg-indigo-600'
+
+
+export const referencias =[
+    {
+        nombre: 'Ruben Dario Monsalve Vallejo',
+        cargo:'Propietario, Gerente',
+        empresa:`Ruben's Trucking Company, Inc.`,
+        contacto:'+1 (302) 632 7515',
+        correo:'ruben@rtchauling.com'
+    },
+    {
+        nombre:'Luis Norberto Zapata Puerta',
+        cargo:'Docente',
+        empresa: 'Politecnico Colombiano Jaime Isaza Cadavid',
+        contacto:'+57 (300) 304 0551',
+        correo:'lnzapata@elpoli.edu.co'
+    }
+]

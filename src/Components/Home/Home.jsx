@@ -2,6 +2,7 @@ import { Button } from "../../Elements/Button/button.jsx";
 import Foto from "../../images/foto.jpg";
 import { redes } from "../../Utils/constants.js";
 import { Carta } from "../Carta/Carta.jsx";
+import { Referencias } from "../Referencias/Referencias.jsx";
 import { Tecnologias } from "../Tecnologias/tecnologias.jsx";
 export const Home = () => {
   return (
@@ -42,11 +43,8 @@ export const Home = () => {
         </div>
       </div>
       <Carta />
-      
-      
       <Tecnologias/>
-      
-
+      <Referencias />
     </>
   );
 };
