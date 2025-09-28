@@ -4,7 +4,10 @@ import { redes } from "../../Utils/constants.js";
 import { Carta } from "../Carta/Carta.jsx";
 import { Referencias } from "../Referencias/Referencias.jsx";
 import { Tecnologias } from "../Tecnologias/tecnologias.jsx";
+import { useNavigate } from "react-router-dom";
 export const Home = () => {
+
+  const navigate = useNavigate()
   return (
     <>
       <div className="flex flex-row justify-center bg-gray-200">
@@ -26,7 +29,7 @@ export const Home = () => {
               <h3 className="">Desarrollador Junior</h3>
             </div>
             <div className="items-end bottom-0  my-9">
-              <Button text={"Ver carta"} />
+              <Button text={"Ver carta"} onClickAction={() => navigate('/Carta')}/>
 
               <div className="flex flex-row mt-1">
                 {redes.map((red) => {
